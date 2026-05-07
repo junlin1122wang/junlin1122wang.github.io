@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一篇博客</title>
+    <style>
+        body {
+            max-width: 700px;
+            margin: 40px auto;
+            font-family: sans-serif;
+            line-height: 1.7;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎙️ 我的播客：第一次发布</h1>
+    <p>欢迎大家来到我的博客！下面是我展示的两张图片。</p>
+    
+    <h2>图片一：绝对路径引用</h2>
+    <!-- 下面这张图片使用绝对 URL，指向互联网上的某个图片 -->
+    <img src="https://image.baidu.com/search/detail?adpicid=0&b_applid=11234221743104526793&bdtype=0&commodity=&copyright=&cs=178889306%2C1115308182&di=7620110360720179201&fr=click-pic&fromurl=http%253A%252F%252Fzhuanlan.zhihu.com%252Fp%252F27000462177&gsm=1e&hd=&height=0&hot=&ic=&ie=utf-8&imgformat=&imgratio=&imgspn=0&is=0%2C0&isImgSet=&latest=&lid=d87701a7036fbed2&lm=&objurl=https%253A%252F%252Fpicx.zhimg.com%252Fv2-8931f69a225e0ee0ef798c739e885ef0_720w.jpg%253Fsource%253D172ae18b&os=2802403166%2C3220971147&pd=image_content&pi=0&pn=9&rn=1&simid=178889306%2C1115308182&tn=baiduimagedetail&width=0&word=deepseek%2B%E5%9B%BE%E6%A0%87&z=" alt="绝对路径示例图">
+    <p>▲ 这张图片的地址是完整的网址（https://placehold.co/...），这就是绝对路径。</p>
+    
+    <h2>图片二：相对路径引用</h2>
+    <!-- 下面这张图片使用相对路径，指向仓库里的 image/图1.png -->
+    <img src="image/1.png" alt="相对路径示例图">
+    <p>▲ 这张图片的地址只写了 <code>image/1.png</code>，它是相对于当前页面的位置，这就是相对路径。</p>
+    
+    <hr>
+    <p>发布于：2026年5月7日</p>
+</body>
+</html>
